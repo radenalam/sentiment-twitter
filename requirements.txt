@@ -1,7 +1,7 @@
 altair==4.2.0
 streamlit==1.13.0
 streamlit-authenticator==0.1.5
-re==2022.9.13 
+regex==2022.9.13 
 pandas==1.5.0
 numpy==1.23.3  
 tweepy==4.12.1
