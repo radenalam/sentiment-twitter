@@ -15,7 +15,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import config
 
 st.set_page_config(
-    page_title="Sentiment Analisis Bahasa Indonesia",
+    page_title="Twitter Crawling Sentiment Analisis",
     page_icon="🧠")
 
 def add_bg_from_url():
