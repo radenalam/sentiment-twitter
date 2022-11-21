@@ -1,0 +1,13 @@
+altair==4.2.0
+streamlit==1.13.0
+streamlit-authenticator==0.1.5
+csv
+pickle
+Path
+re
+pandas
+numpy
+tweepy
+TextBlob
+SentimentIntensityAnalyzer
+config

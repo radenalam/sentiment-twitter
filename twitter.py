@@ -73,7 +73,6 @@ def main():
 
     menu = ["Home" , "About", "Twitter"]
     st.sidebar.title("Sentiment App")
-    authenticator.logout("Logout", "sidebar")
     choice = st.sidebar.selectbox('Menu',menu)
 
     if choice == "Home":
@@ -219,8 +218,7 @@ def cleanTxt(text):
     text = re.sub(r'http\S+', '', text) # Removing hyperlink
     text = text.lower() # mengecilkan huruf
     text = re.sub(r'\B@(?!(?:[a-z0-9.]*_){2})(?!(?:[a-z0-9_]*\.){2})[._a-z0-9]{3,24}\b', '', text) #Removing @mentions
-    
-                    
+          
     return text
 
 @st.cache
