@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run twitter.py
+web: sh setup.sh && streamlit run sentiment.py
