@@ -6,4 +6,3 @@ pandas==1.5.0
 numpy==1.23.3  
 tweepy==4.12.1
 TextBlob==0.17.1 
-SentimentIntensityAnalyzer
