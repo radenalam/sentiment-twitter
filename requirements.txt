@@ -5,4 +5,5 @@ regex==2022.9.13
 pandas==1.5.0
 numpy==1.23.3  
 tweepy==4.12.1
-TextBlob==0.17.1 
+TextBlob==0.17.1
+vaderSentiment==3.3.2 
